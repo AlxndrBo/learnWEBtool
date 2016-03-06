@@ -1,4 +1,4 @@
-git config --global user.email "
+git config --global user.email "sasha547@ya.ru"
 git config --global user.name "AlxndrBo"
 sudo ﻿ln -s /home/box/web/etc/nginx.conf  /etc/nginx/sites-enabled/test.conf
 sudo /etc/init.d/nginx restart
