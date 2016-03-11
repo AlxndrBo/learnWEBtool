@@ -12,8 +12,8 @@ sudo gunicorn -D -b 0.0.0.0:8000 ask.wsgi
 #sudo ln -sf /home/box/web/hello.py  /usr/lib/python2.7/dist-packages/gunicorn/app/hello.py
 #sudo /etc/init.d/gunicorn restart
 #=======================================================
-mysql -u root -p
-mysql -u root -p create user 'pupkin'@'localhost' identified by 'pupkinpwd';
-mysql -u root -p create database askdb;
-mysql -u root -p grant all on askdb.* to 'test'@'localhost';
+#mysql -u root -p
+#mysql -u root -p create user 'pupkin'@'localhost' identified by 'pupkinpwd';
+#mysql -u root -p create database askdb;
+#mysql -u root -p grant all on askdb.* to 'test'@'localhost';
 #=======================================================
