@@ -27,6 +27,17 @@ drop user 'test'@'localhost'
 Удаляем базу testdb
 drop database testdb;
 
+#============================================================================
+
+Запуск сервера MySQL:
+/etc/init.d/mysql start
+
+Остановка работы сервера MySQL:
+/etc/init.d/mysql stop
+
+Перезапуск сервера MySQL:
+/etc/init.d/mysql restart
+
 
 
 
