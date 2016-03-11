@@ -20,6 +20,16 @@ class Question(models.Model):
     #class Meta:
     #    db_table = 'blogposts'
     #    ordering = ['-creation_date']
-
+class Answer(models.Model):
+#text - текст ответа
+#added_at - дата добавления ответа
+#question - вопрос, к которому относится ответ
+#author - автор ответа
+    text = models.TextField()
+    added_at = models.DateTimeField(blank=True)
+    question = models.ManyToManyField(Question)
+    author = models.CharField(max_length=255)
+    def __unicode__(self):
+        return self.title
 
 # Create your models here.
